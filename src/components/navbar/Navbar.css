@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    background-color: rgb(94, 175, 67);
+    gap: 2rem;
+}
+.container > a{
+    color: azure;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}
+.container > a:hover{
+    background-color: rgb(133, 145, 187);
+    color: black;
+}
